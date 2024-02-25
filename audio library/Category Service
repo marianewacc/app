@@ -1,0 +1,4 @@
+function addCategory(categoryName) {
+  let newCategory = new Category(categoryName);
+
+}

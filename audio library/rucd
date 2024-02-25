@@ -1,0 +1,18 @@
+let albums = [];
+
+function createAlbum(title, artist, year) {
+  let newAlbum = new Album(title, artist, year);
+  albums.push(newAlbum);
+}
+
+function updateAlbum(index, updatedAlbum) {
+  albums[index] = updatedAlbum;
+}
+
+function readAlbum(index) {
+  return albums[index];
+}
+
+function deleteAlbum(index) {
+  albums.splice(index, 1);
+}

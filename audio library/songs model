@@ -1,0 +1,8 @@
+class Song {
+  constructor(: name, singer, category, album) {
+    this.name = name;
+    this.singer = singer;
+    this.category = category;
+    this.album = album;
+  }
+}

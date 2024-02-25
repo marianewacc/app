@@ -1,0 +1,3 @@
+function addSongToAlbum(albumIndex, song) {
+  albums[albumIndex].songs.push(song);
+}

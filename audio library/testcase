@@ -1,0 +1,19 @@
+function testCase() {
+  addCategory("Pop", "Description for Pop category");
+
+  addCategory("Jazz", "Description for Jazz category");
+
+  createAlbum("My Album", "Artist Name", 2021);
+  addSongToAlbum(0, new Song("Song 1", "Artist 1", "3:30"));
+  addSongToAlbum(0, new Song("Song 2", "Artist 2", "4:00"));
+  addSongToAlbum(0, new Song("Song 3", "Artist 3", "3:45"));
+
+  createAlbum("Temp Album", "Artist Name", 2021);
+  addSongToAlbum(1, new Song("Song A", "Artist A", "3:00"));
+  addSongToAlbum(1, new Song("Song B", "Artist B", "4:15"));
+  addSongToAlbum(1, new Song("Song C", "Artist C", "3:20"));
+
+  deleteAlbum(1);
+
+  deleteSongFromAlbum(0, 2);
+}

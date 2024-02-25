@@ -1,0 +1,3 @@
+function deleteSongFromAlbum(albumIndex, songIndex) {
+  albums[albumIndex].songs.splice(songIndex, 1);
+}

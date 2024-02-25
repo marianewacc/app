@@ -1,0 +1,3 @@
+function getAlbumById(albumId) {
+  return albums.find(album => album.id === albumId);
+}
